@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/details_ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#a95555"
+        />
+    <TextView
+        android:id="@+id/details_Title"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="80dp" />
+    <TextView
+        android:id="@+id/details_Price"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="80dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/Button_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标题"
+            />
+        <Button
+            android:id="@+id/Button_Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="价格"
+            />
+        <Button
+            android:id="@+id/details_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="100dp"
+            android:text="加入购物车"
+            android:background="#ed0f0f"
+            />
+    </LinearLayout>
+
+</LinearLayout>
